@@ -526,21 +526,21 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🕸️ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
         ])
         
         await start_message.edit_text(
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use button : **✨ Commands** to get started 🌟\n\n"
-            f"If you face any problem contact -  [{CREDIT}⁬](tg://openmessage?user_id={OWNER})\n", disable_web_page_preview=True, reply_markup=keyboard
+            f"If you face any problem contact -  [{CREDIT}⁬]\n", disable_web_page_preview=True, reply_markup=keyboard
         )
     else:
         await asyncio.sleep(2)
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
         ])
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
@@ -555,7 +555,7 @@ async def back_to_main_menu(client, callback_query):
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/IFSAshuAbhiBot"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/IFSAshuAbhiBot")],
         ])
     
     await callback_query.message.edit_media(
