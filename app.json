@@ -13,27 +13,27 @@
     "env": {
         "API_ID": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
-            "value": "22182189",
+            "value": "20567114",
             "required": true
         },
         "API_HASH": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
-            "value": "5e7c4088f8e23d0ab61e29ae11960bf5",
+            "value": "8a5b92106e45fc6637a65a67df060a65",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
-            "value": "",
+            "value": "8024972578:AAFahP8njNmQjN7Xywyo8BQ9Z_Q-232K7CI",
             "required": true
         },
         "OWNER": {
             "description": "𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙄𝘿",
-            "value": "5680454765",
+            "value": "8036182138",
             "required": true
         },
         "CREDIT": {
             "description": "𝙀𝙣𝙩𝙚𝙧 𝘾𝙧𝙚𝙙𝙞𝙩 𝙉𝙖𝙢𝙚 𝙞𝙣 𝙖𝙡𝙢𝙤𝙨𝙩 6-8 𝙡𝙚𝙩𝙩𝙚𝙧𝙨",
-            "value": "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎",
+            "value": "**[༄ᶦᶰᵈआशु࿐❥◉🇮🇳™](https://t.me/IFSAshuAbhiBot)**",
             "required": true
         }
     },
